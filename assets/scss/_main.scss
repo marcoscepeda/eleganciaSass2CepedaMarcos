@@ -1,0 +1,75 @@
+main{    
+    iframe{
+        width: 90%;
+        height: 50vh;
+        margin: 20px;
+    }
+
+    
+    p{
+        @include parrafo($colorletra, $tipoLetra, 21px);
+        
+    }
+    h2{
+        color: $colorletra;
+        font-family: $tipoLetra;
+    }
+    
+    .card{
+        border: 0;
+        background-color: $colorBody;
+        .card-img-top{
+            border-radius: 30px;
+        }
+        .card-body{
+            background-color: $colorBody ;
+           // justify-content: center;
+            border: 0;
+            h4{
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .btn-primary{
+                background-color: rgb(73, 133, 133);
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                border-radius: 13px;
+                border-color: $colorBody;
+                width: 150px;                
+            }
+            .card-title{
+                text-align: center;
+                margin-top: 20px;
+            }
+            .card-text{
+                text-align: center;
+                margin-top: 25px;
+            }
+            
+        }
+    }
+
+
+    .contacto{
+        border: 2px solid rgb(109, 27, 27);
+        border-radius: 12px;
+        padding: 1em;    
+    }
+    
+    form{
+        border: 2px solid rgb(109, 27, 27);
+        border-radius: 12px;
+        padding: 2em;        
+        .btn-primary{
+            background-color: rgb(73, 133, 133);
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 13px;
+            border-color: $colorBody;
+            width: 150px;                
+        }
+
+    }
+    
+    label{
+        color:$colorletra ;
+    }
+    
+}  

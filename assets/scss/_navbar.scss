@@ -1,0 +1,26 @@
+
+
+.navbar{
+    background-image: linear-gradient(to right, white, rgb(187, 154, 154));   /******** gradiente al nav  *******/
+    #navbarNavAltMarkup{    /****** muevo el navbar a la izquierda****/
+        justify-content:map-get($navboot, justificado);
+        font-family:map-get($navboot, fuente);
+        font-size: map-get($navboot, tamanioletra); 
+        
+        .navbar-nav{
+            a{
+                color:map-get($navboot, colorletra);
+            }            
+        }       
+    }
+    .navbar-toggler{
+        border: 0;
+        border-radius: 80px;        // ver como sacar el borde del menu hamburguesa
+        
+    }
+    .navbar-brand {
+        color:map-get($navboot, colorletra);
+        font-family:map-get($navboot, fuente);
+        font-size: map-get($navboot, tamanioletra);
+    }
+}

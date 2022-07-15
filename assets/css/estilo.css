@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(240, 212, 203);
+}
+
+.navbar {
+  background-image: linear-gradient(to right, white, rgb(187, 154, 154)); /******** gradiente al nav  *******/
+}
+.navbar #navbarNavAltMarkup { /****** muevo el navbar a la izquierda****/
+  justify-content: end;
+  font-family: "Parisienne";
+  font-size: 2em;
+}
+.navbar #navbarNavAltMarkup .navbar-nav a {
+  color: rgb(31, 96, 112);
+}
+.navbar .navbar-toggler {
+  border: 0;
+  border-radius: 80px;
+}
+.navbar .navbar-brand {
+  color: rgb(31, 96, 112);
+  font-family: "Parisienne";
+  font-size: 2em;
+}
+
+header .carousel-inner h1 {
+  font-family: "Parisienne"; /****** fuente elegida *****/
+  font-size: 90px;
+  margin: 20px;
+  font-weight: 500;
+  color: rgb(139, 15, 15);
+}
+header .carousel-inner h2, header .carousel-inner h3, header .carousel-inner h4 {
+  font-family: "Parisienne";
+  font-size: 50px;
+  margin: 20px;
+  font-weight: 400;
+  color: black;
+}
+
+main iframe {
+  width: 90%;
+  height: 50vh;
+  margin: 20px;
+}
+main p {
+  color: rgb(31, 96, 112);
+  font-family: "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif";
+  font-size: 21px;
+}
+main h2, main h3, main h4 {
+  color: rgb(31, 96, 112);
+  font-family: "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif";
+}
+main .card {
+  border: 0;
+  background-color: rgb(240, 212, 203);
+}
+main .card .card-img-top {
+  border-radius: 30px;
+}
+main .card .card-body {
+  background-color: rgb(240, 212, 203);
+  border: 0;
+}
+main .card .card-body h4 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+main .card .card-body .btn-primary {
+  background-color: rgb(73, 133, 133);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 13px;
+  border-color: rgb(240, 212, 203);
+  width: 150px;
+}
+main .card .card-body .card-title {
+  text-align: center;
+  margin-top: 20px;
+}
+main .card .card-body .card-text {
+  text-align: center;
+  margin-top: 25px;
+}
+main .contacto {
+  border: 2px solid rgb(109, 27, 27);
+  border-radius: 12px;
+  padding: 1em;
+}
+main form {
+  border: 2px solid rgb(109, 27, 27);
+  border-radius: 12px;
+  padding: 2em;
+}
+main form .btn-primary {
+  background-color: rgb(73, 133, 133);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 13px;
+  border-color: rgb(240, 212, 203);
+  width: 150px;
+}
+main label {
+  color: rgb(31, 96, 112);
+}
+
+footer {
+  text-align: center;
+}
+footer h5 {
+  margin: 1em;
+  color: rgb(31, 96, 112);
+  font-family: "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif";
+  font-size: 15px;
+}/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,28 @@
+$colorBody:rgb(240, 212, 203);
+$letraEspecial: "Parisienne";
+$colorletra: rgb(31, 96, 112);
+$tipoLetra:"'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif";
+
+
+h3{
+    @extend h2;     // @EXTEND
+}
+h4{
+    @extend h2;     // @EXTEND
+}
+
+
+// map-get 
+$navboot:(
+    justificado: end,
+    fuente: $letraEspecial,
+    tamanioletra: 2em,
+    colorletra: $colorletra,
+);
+
+//  MIXIN
+@mixin parrafo($color, $fuente, $tamanio) {
+    color: $color;
+    font-family: $fuente;
+    font-size: $tamanio;
+}
